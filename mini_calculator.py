@@ -7,8 +7,12 @@ class MiniCalculator:
         return a-b
 
     def produs(self, a, b):
-        pass
+        return a*b
 
     def impartire(self, a, b):
-        pass
+        error_message = "Nu se poate imparti la 0"
+        if b == 0:
+            return error_message
+        else:
+            return a/b
 
